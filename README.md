@@ -1,18 +1,10 @@
-## Getting Started
+# Conta Bancária - Santander 2024 - Backend com Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desafio proposto pela [Digital Innovatio One](https://web.dio.me/lab/desafio-banco-terminal/learning/0f2adc2e-d20f-4316-a350-09d8024c6828?back=/track/santander-2024-backend-com-java) para simular uma conta bancária via trminal.
 
-## Folder Structure
+## 📋 Tarefas:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- [x]  Criar o projeto ``ContaBanco``
+- [x]  Dentro do projeto, crie a classe ``ContaTerminal.java`` para receber os dados de usuário
+- [x]  Permitir a entrada de dados via terminal : numero, agência, nome do cliente e saldo
+- [x]  Exibir a seguinte mensagem após inserção dos dados: "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque". 
